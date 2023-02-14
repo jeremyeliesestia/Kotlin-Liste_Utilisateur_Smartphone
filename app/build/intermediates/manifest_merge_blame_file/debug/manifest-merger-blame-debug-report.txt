@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todolist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:6:5-66
+12-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:7:5-33:19
+15        android:allowBackup="true"
+15-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.8.0] C:\Users\j.elies\.gradle\caches\transforms-3\66a170bd30d299237215ec37f6113222\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:9:9-65
+18        android:debuggable="true"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:10:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.ToDoList" >
+25-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:15:9-46
+26        <activity
+26-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:17:9-19:40
+27            android:name="com.example.todolist.activity.NewTaskActivity"
+27-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:18:13-53
+28            android:exported="false" />
+28-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:19:13-37
+29        <activity
+29-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:20:9-32:20
+30            android:name="com.example.todolist.activity.MainActivity"
+30-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:21:13-50
+31            android:exported="true" >
+31-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:22:13-36
+32            <intent-filter>
+32-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:24:17-69
+33-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:26:17-77
+35-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37
+38            <meta-data
+38-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:29:13-31:36
+39                android:name="android.app.lib_name"
+39-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:30:17-52
+40                android:value="" />
+40-->C:\Kotlin\projet-projet_elies_madec_maz_rich_clab\app\src\main\AndroidManifest.xml:31:17-33
+41        </activity>
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\j.elies\.gradle\caches\transforms-3\d68ed73002c3fd3a22cdac23b8790374\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\j.elies\.gradle\caches\transforms-3\d68ed73002c3fd3a22cdac23b8790374\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+45            android:authorities="com.example.todolist.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\j.elies\.gradle\caches\transforms-3\d68ed73002c3fd3a22cdac23b8790374\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\j.elies\.gradle\caches\transforms-3\d68ed73002c3fd3a22cdac23b8790374\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\j.elies\.gradle\caches\transforms-3\d68ed73002c3fd3a22cdac23b8790374\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\j.elies\.gradle\caches\transforms-3\d68ed73002c3fd3a22cdac23b8790374\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\j.elies\.gradle\caches\transforms-3\d68ed73002c3fd3a22cdac23b8790374\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\j.elies\.gradle\caches\transforms-3\2202293d3be460babf3dd52fab2ec917\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\j.elies\.gradle\caches\transforms-3\2202293d3be460babf3dd52fab2ec917\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\j.elies\.gradle\caches\transforms-3\2202293d3be460babf3dd52fab2ec917\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+53        </provider>
+54
+55        <service
+55-->[androidx.room:room-runtime:2.2.5] C:\Users\j.elies\.gradle\caches\transforms-3\dde5549449fef0e8a2d55f00c7fed0fa\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+56            android:name="androidx.room.MultiInstanceInvalidationService"
+56-->[androidx.room:room-runtime:2.2.5] C:\Users\j.elies\.gradle\caches\transforms-3\dde5549449fef0e8a2d55f00c7fed0fa\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+57            android:directBootAware="true"
+57-->[androidx.room:room-runtime:2.2.5] C:\Users\j.elies\.gradle\caches\transforms-3\dde5549449fef0e8a2d55f00c7fed0fa\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+58            android:exported="false" />
+58-->[androidx.room:room-runtime:2.2.5] C:\Users\j.elies\.gradle\caches\transforms-3\dde5549449fef0e8a2d55f00c7fed0fa\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+59    </application>
+60
+61</manifest>

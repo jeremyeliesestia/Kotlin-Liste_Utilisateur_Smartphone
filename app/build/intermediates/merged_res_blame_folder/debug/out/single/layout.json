@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Kotlin\\projet-projet_elies_madec_maz_rich_clab\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\newtask_activity.xml",
+        "source": "C:\\Kotlin\\projet-projet_elies_madec_maz_rich_clab\\app\\src\\main\\res\\layout\\newtask_activity.xml"
+    },
+    {
+        "merged": "C:\\Kotlin\\projet-projet_elies_madec_maz_rich_clab\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\adapter_task.xml",
+        "source": "C:\\Kotlin\\projet-projet_elies_madec_maz_rich_clab\\app\\src\\main\\res\\layout\\adapter_task.xml"
+    },
+    {
+        "merged": "C:\\Kotlin\\projet-projet_elies_madec_maz_rich_clab\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Kotlin\\projet-projet_elies_madec_maz_rich_clab\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

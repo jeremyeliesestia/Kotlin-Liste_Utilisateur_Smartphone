@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:paddingTop="15dp"
+    >
+
+
+    <EditText
+        android:id="@+id/task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom de la tâche"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/requested"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ecrit par"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/assignee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Assignée à"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:hint="Date limite"
+        android:layout_height="wrap_content"
+        android:inputType="datetime"/>
+
+    <Button
+        android:id="@+id/btnTask"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundstyle"
+        android:text="Ajouter"
+        android:textSize="10dp"
+
+
+        />
+</LinearLayout>
